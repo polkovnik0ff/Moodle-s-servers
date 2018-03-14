@@ -2,23 +2,56 @@
 $page = "home";
 include 'header.php';
 ?>
+    <div class="span9">
+        <div class="hero-unit">
+            <h1>Hello, world!</h1>
+            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+        </div>
+        <div class="row-fluid">
+            <div class="span4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+        </div><!--/row-->
+        <div class="row-fluid">
+            <div class="span4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+        </div><!--/row-->
+    </div><!--/span-->
+    </div><!--/row-->
 
-    <div class="jumbotron">
-        <h1>SAFER Cypher</h1>
-        <p class="lead">Реализация шифра SAFER.</p>
-    </div>
+    <hr>
 
-    <p>
-        <strong>SÁFER</strong> (англ. <strong>Secure And Fast Encryption Routine</strong> — безопасная и быстрая процедура шифрования) — в криптографии семейство симметричных блочных криптоалгоритмов на основе подстановочно-перестановочной сети. Основной вклад в разработку алгоритмов внёс Джеймс Мэсси. Первый вариант шифра был создан и опубликован в 1993 году.
-    </p>
-    <p>
-        Спустя некоторое время в первых вариантах алгоритма выявились некоторые слабости, обнаруженные Ларсом Кнудсеном и Шоном Мёрфи. Это повлекло за собой создание новых версий алгоритма, названных SAFER SK-64 и SAFER SK-128, в которых расписание ключей было изменено в соответствии со схемой, предложенной Кнудсеном. Также был разработан вариант с длиной ключа, уменьшенной до 40 бит — SAFER SK-40. Сокращение «SK» в названии алгоритмов расшифровывается как «Strengthened Key schedule» (Усиленное расписание ключей). Для новых вариантов шифра предлагалось использовать не 6, а по крайней мере 8 (максимум 10) раундов шифрования.
-    </p>
-    <p>
-        Алгоритм SAFER+ был разработан в 1998 году калифорнийской корпорацией Cylinc совместно с Армянской академией наук для участия в конкурсе AES, на котором прошёл лишь первый отборочный тур. Данный шифр имеет входной блок длиной 128 бит и размер ключа 128, 192 или 256 бит.
-    </p>
-    <p>
-        Последней из созданных разновидностей алгоритма SAFER является SAFER++, разработанный Мэсси в 2000 году и ставший дальнейшим развитием алгоритма SAFER+. Алгоритм принял участие в европейском конкурсе алгоритмов NESSIE, где был представлен в двух вариантах: шифр с 64-битным блоком и 128-битным блоком. Он прошёл во вторую фазу конкурса, но не был выбран в набор рекомендуемых NESSIE криптографических примитивов. Эксперты сочли, что шифр слишком медленный на всех машинах, кроме 8-битных (таких как смарт-карты), а запас безопасности шифра слишком мал.
-    </p>
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
 
 <?php include 'footer.php' ?>
