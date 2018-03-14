@@ -1,84 +1,67 @@
 <!doctype html>
 <html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <title>ИС "Сервера Moodle"</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <title>ИС "Сервера Moodle"</title>
+        <!-- Latest compiled and minified CSS -->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <style type="text/css">
+            body {
+                padding-top: 70px;
+                padding-bottom: 30px;
+            }
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//mybootstrap.ru/wp-content/themes/clear-theme/styles/bootstrap.css">
-    <link rel="stylesheet" href="//mybootstrap.ru/wp-content/themes/clear-theme/styles/bootstrap-responsive.css">
-<!--    <style type="text/css">-->
-<!--        body {-->
-<!--            padding-top: 60px;-->
-<!--            padding-bottom: 40px;-->
-<!--        }-->
-<!--        .sidebar-nav {-->
-<!--            padding: 9px 0;-->
-<!--        }-->
-<!---->
-<!--        @media (max-width: 980px) {-->
-<!--            /* Enable use of floated navbar text */-->
-<!--            .navbar-text.pull-right {-->
-<!--                float: none;-->
-<!--                padding-left: 5px;-->
-<!--                padding-right: 5px;-->
-<!--            }-->
-<!--        }-->
-<!--    </style>-->
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+            .theme-dropdown .dropdown-menu {
+                position: static;
+                display: block;
+                margin-bottom: 20px;
+            }
 
-    <link rel="stylesheet" href="css/styles.css"
-</head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
+            .theme-showcase > p > .btn {
+                margin: 5px 0;
+            }
+
+            .theme-showcase .navbar .container {
+                width: auto;
+            }
+        </style>
+        <link rel="stylesheet" href="css/styles.css"
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
-                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="brand" href="#">Project name</a>
-                <div class="nav-collapse collapse">
-                    <p class="navbar-text pull-right">
-                        Logged in as <a href="#" class="navbar-link">Username</a>
-                    </p>
-                    <ul class="nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">ИС Сервера Moodle</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="http://kemsu.ru/">КемГУ</a> </li>
+                        <li><a href="http://iais.kemsu.ru/">Иаис</a> </li>
                     </ul>
-                </div><!--/.nav-collapse -->
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="span3">
-                <div class="well sidebar-nav">
-                    <ul class="nav nav-list">
-                        <li class="nav-header">Sidebar</li>
-                        <li class="active"><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li class="nav-header">Sidebar</li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li class="nav-header">Sidebar</li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-md-2 sidebar">
+                    <ul class="nav nav-sidebar">
+                        <li><a href="#">Регистрация Сервера</a></li>
+                        <li><a href="#">Отчёты</a></li>
+                        <li><a href="#">Связка пользователей</a></li>
+                        <li><a href="#">Связка дисцеплин</a></li>
                     </ul>
-                </div><!--/.well -->
-            </div><!--/span-->
+                </div>
+                <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
