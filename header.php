@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/styles.css"
 </head>
 <body>
+<!-- navigation panel -->
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -31,7 +32,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-education"></span> ИС Сервера Moodle</a>
+            <a class="navbar-brand" href="index.php"><span class="glyphicon glyphicon-education"></span> ИС Сервера Moodle</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-left">
@@ -41,14 +42,18 @@
         </div>
     </div>
 </nav>
+<!-- end of navigation panel -->
+<!-- container -->
 <div class="container-fluid">
     <div class="row">
+        <!-- side panel -->
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
-                <li><a href="#"><span class="glyphicon glyphicon-tasks"></span>Регистрация Сервера</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-calendar"></span>Отчёты</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Связка пользователей</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-link"></span>Связка дисцеплин</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-tasks"></span> Регистрация Сервера</a></li>
+                <li><a href="reports.php"><span class="glyphicon glyphicon-calendar"></span> Отчёты</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Связка пользователей</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-link"></span> Связка дисцеплин</a></li>
             </ul>
         </div>
+        <!-- end side panel -->
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
